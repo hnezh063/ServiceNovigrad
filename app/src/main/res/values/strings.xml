@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Service Novigrad</string>
+    <string name="log_off">Log Off</string>
+    <string name="succursale_numbre">Succursale Numbre</string>
+    <string name="services_provided">Services Provided</string>
+    <string name="hours_of_work">Hours of work</string>
+    <string name="email">Email</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Employe">
+
+    <EditText
+        android:id="@+id/etSuccursaleNbr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/succursale_numbre"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etServicesProvided"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etSuccursaleNbr"
+        android:layout_marginTop="8dp"
+        android:hint="@string/services_provided"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etHoursofwork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etServicesProvided"
+        android:layout_marginTop="8dp"
+        android:hint="@string/hours_of_work"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etHoursofwork"
+        android:layout_marginTop="8dp"
+        android:hint="@string/email"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etEmail"
+        android:layout_marginTop="8dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPassword"
+        android:layout_marginTop="16dp"
+        android:text="Register" />
+
+</RelativeLayout>
